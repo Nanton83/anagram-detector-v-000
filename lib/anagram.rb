@@ -7,6 +7,7 @@ def initialize(word)
   @word = word
 end
   
-def match
+def match(array_of_anagrams)
 end
+
 end 
