@@ -9,9 +9,9 @@ end
   
 def match(array_of_anagrams)
   array_of_anagrams.collect do |word_to_match|
-    if @word.split("") == word_to_match.split("")
+    if word.split("") == word_to_match.split("")
   end
-  word_to_match
+  
 end 
 end
 
