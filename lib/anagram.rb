@@ -8,10 +8,10 @@ def initialize(word)
 end
   
 def match(array_of_anagrams)
-  array_of_anagrams.each do |word_to_match|
+  array_of_anagrams.collect do |word_to_match|
     if word.split("").sort == word_to_match.split("").sort
   end
-  
+  array_of_anagrams
 end 
 end
 
