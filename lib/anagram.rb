@@ -11,7 +11,7 @@ def match(array_of_anagrams)
   array_of_anagrams.collect do |word_to_match|
     if word.split("").sort == word_to_match.split("").sort
   end
-  array_of_anagrams
+  word_to_match
 end 
 end
 
